@@ -8,15 +8,14 @@ class Anagram
   end
   
   def match(list)
-    i = 0 
+    anagram = []
     list.each do |item|
       letters = item.split(//)
-      list.slice!(i) if !(word.split(//).sort == letters.sort) 
-        
-      
-      i += 1
+      if word.split(//).sort == letters.sort
+        anagram << item 
+      end
     end
-    list 
+    anagram 
   end
   
 end
