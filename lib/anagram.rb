@@ -1,3 +1,4 @@
+require 'pry'
 class Anagram
   
   attr_accessor :word 
@@ -8,7 +9,8 @@ class Anagram
   
   def match(list)
     list.each do |word|
-      letters = word.split(//).sort 
+      letters = word.split(//)
+      binding.pry 
       
     end
   end
