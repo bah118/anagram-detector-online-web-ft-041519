@@ -11,8 +11,8 @@ class Anagram
     i = 0 
     list.each do |item|
       letters = item.split(//)
-      if word.split(//).sort != letters.sort 
-        list.slice!(i)
+      list.slice!(i) if !(word.split(//).sort == letters.sort) 
+        
       end
       i += 1
     end
