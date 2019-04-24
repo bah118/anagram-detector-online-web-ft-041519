@@ -12,6 +12,7 @@ class Anagram
       letters = item.split(//)
       if word.split(//).sort == letters.sort 
         return item
+      end
       
     end
   end
