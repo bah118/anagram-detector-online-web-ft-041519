@@ -10,7 +10,7 @@ class Anagram
   def match(list)
     list.each do |word|
       letters = word.split(//)
-      binding.pry 
+      
       
     end
   end
