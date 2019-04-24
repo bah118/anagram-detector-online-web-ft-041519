@@ -7,7 +7,7 @@ class Anagram
   end
   
   def match(list)
-    list.each {||}
+    list.each {|word| }
   end
   
 end
