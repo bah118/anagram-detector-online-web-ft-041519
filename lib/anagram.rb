@@ -8,7 +8,7 @@ class Anagram
   
   def match(list)
     anagrams = []
-    list.map do |item|
+    list.map! do |item|
       # anagrams << item if 
       word.split(//).sort == item.split(//).sort
       
