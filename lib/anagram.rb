@@ -12,7 +12,7 @@ class Anagram
     list.each do |item|
       letters = item.split(//)
       if word.split(//).sort == letters.sort 
-        binding.pry
+        return list[i]
       end
       i += 1
     end
