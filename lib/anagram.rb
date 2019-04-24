@@ -14,4 +14,8 @@ class Anagram
     anagrams 
   end
   
+  def word_to_sorted_array(str)
+    str = str.split(//).sort 
+  end
+  
 end
