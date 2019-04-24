@@ -13,7 +13,7 @@ class Anagram
       letters = item.split(//)
       list.slice!(i) if !(word.split(//).sort == letters.sort) 
         
-      end
+      
       i += 1
     end
     list 
