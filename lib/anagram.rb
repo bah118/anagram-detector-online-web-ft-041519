@@ -10,7 +10,7 @@ class Anagram
     anagram = []
     list.each do |item|
       letters = item.split(//)
-      if word.split(//).sort == letters.sort
+      if word.split(//).sort == item.split(//).sort
         anagram << item 
       end
     end
