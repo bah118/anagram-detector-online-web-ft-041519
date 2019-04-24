@@ -18,3 +18,8 @@ class Anagram
   end
   
 end
+
+
+
+# return an array item 
+# return empty array if no match
