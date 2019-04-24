@@ -11,7 +11,7 @@ class Anagram
     list.each do |item|
       letters = item.split(//)
       if word.split(//).sort == letters.sort 
-        return item
+        binding.pry 
       end
       
     end
