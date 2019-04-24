@@ -8,9 +8,10 @@ class Anagram
   end
   
   def match(list)
-    list.each do |word|
-      letters = word.split(//)
-      
+    list.each do |item|
+      letters = item.split(//)
+      if word.split(//).sort == letters.sort 
+        return item
       
     end
   end
